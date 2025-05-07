@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- --------- UNICONS ---------- -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <!-- --------- CSS ---------- -->
+    <link rel="stylesheet" href="style.css">
+    <!-- --------- FAVICON ---------- -->
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+    <title>Portfolio | Abdulkarem</title>
+</head>
+<body>
+   <div class="container">
+    <!-- --------------- HEADER --------------- -->
+      <nav id="header">
+        <div class="nav-button">
+          <a href="images/CV.pdf" download="CV.pdf">
+              <button class="btn">السيرة الذاتية <i class="uil uil-file-alt"></i></button>
+          </a>
+        </div>
+        <div class="nav-logo">
+          <p class="nav-name">عبدالكريم محمد<div class=""></div></p>
+        </div>
+        <div class="nav-menu-btn">
+            <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+        </div>
+      </nav>
+    <!-- -------------- MAIN ---------------- -->
+    <main class="wrapper">
+       <!-- -------------- FEATURED BOX ---------------- -->
+       <section class="featured-box" id="home">
+          <div class="featured-image">
+            <div class="image">
+                <img src="images/avatar.png" alt="avatar">
+            </div>
+          </div>
+          <div class="featured-text">
+            <div class="featured-name">
+                <p>أ.م.د. عبدالكريم محمد حسين الروضي</p>
+            </div>
+            <div class="featured-text-info">
+                <p>فلسفتي في الحياة هي بِنائية في جوهرها، 
+                  تستند إلى الاعتقاد بأن الناس يبنون المعنى والمعرفة
+                   من تجاربهم و أعتقد أن جميع الناس يجلبون معهم تجارب ومهارات
+                   وتفاهمات غنية في لقاءاتهم، وأشجع الجميع على ربط ما يتعلمونه
+                   في الحياة العلمية والتدريبية بحياتهم العملية والخاصة.
+                   أُقدِّر تجارب الجميع  وأعتقد أنه يجب أن نتشارك المعرفة
+                   النافعة جميعاً لنصنع الوعي الكامل في المجتمعات
+                </p>
+            </div>
+            <div class="featured-text-btn">
+                <a href="#footer">
+                    <button class="btn blue-btn">تواصل معي</button>
+                </a>
+                <a href="images/CV.pdf" download="CV.pdf">
+                    <button class="btn">السيرة الذاتية <i class="uil uil-file-alt"></i>
+                    </button>
+                </a>
+            </div>
+          </div>
+          
+       </section>
+       <!-- Universities Section -->
+       <section id="universities" class="universities-section">
+        <div class="container">
+          <h2 class="section-title">الجامعات التي عملت معها</h2>
+          <div class="universities-grid">
+            <div class="university-card">
+              <div class="university-image-wrapper">
+                <img src="images/alandalus.png" alt="" class="university-image">
+              </div>
+              <div class="university-info">
+                <h3>جامعة الأندلس للعلوم والتقنية</h3>
+                <p class="work-country">اليمن</p>
+                <p class="work-date">2015 -2013</p>
+              </div>
+            </div>
+            <div class="university-card">
+              <div class="university-image-wrapper">
+                <img src="images/National_University.png" alt="" class="university-image">
+              </div>
+              <div class="university-info">
+                <h3>الجامعة الوطنية</h3>
+                <p class="work-country">اليمن</p>
+                <p class="work-date">2014 - 2013</p>
+              </div>
+            </div>
+            <div class="university-card">
+              <div class="university-image-wrapper">
+                <img src="images/Al-madinah.jpg" alt="" class="university-image">
+              </div>
+              <div class="university-info">
+                <h3>جامعة المدينة العالمية</h3>
+                <p class="work-country">ماليزيا</p>
+                <p class="work-date">2018 - 2016</p>
+              </div>
+            </div>
+            <div class="university-card">
+              <div class="university-image-wrapper">
+                <img src="images/Minnesota.jpg" alt="" class="university-image">
+              </div>
+              <div class="university-info">
+                <h3>الجامعة الاسلامية بمنيسوتا</h3>
+                <p class="work-country">امريكا</p>
+                <p class="work-date">2022 - 2021</p>
+              </div>
+            </div>
+            <div class="university-card">
+              <div class="university-image-wrapper">
+                <img src="images/Science_and_Technology.png" alt="" class="university-image">
+              </div>
+              <div class="university-info">
+                <h3>جامعة العلوم والتكنولوجيا</h3>
+                <p class="work-country">مكتب ماليزيا</p>
+                <p class="work-date">2021 - حتى الان</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Academic Degrees Section -->
+      <section id="academic-degrees" class="academic-degrees">
+        <h2 class="section-title">الشهادات العلمية الأكاديمية</h2>
+        <div class="degrees-container">
+          <div class="cardDegrees">
+            <h3>دبلوم هندسة كمبيوتر</h3>
+          </div>
+          <div class="cardDegrees">
+            <h3>بكالوريوس ادارة أعمال</h3>
+          </div>
+          <div class="cardDegrees">
+            <h3>ماجستير ادارة أعمال</h3>
+          </div>
+          <div class="cardDegrees">
+            <h3>دكتوراه ادارة أعمال -ادارة موارد بشرية</h3>
+          </div>
+        </div>
+      </section>
+      
+      <!-- Academic Courses I Teach Section -->
+      <section id="academic-courses-i-teach" class="academic-courses-i-teach">
+        <h2 class="section-title">المساقات الأكاديميةالتي أقوم بتعليمها</h2>
+        <div class="card-courses-i-teach">
+          <p><span>ادارة المشاريع</span></p>
+          <p><span>السلوك التنظيمي</span></p>
+          <p><span>مهارات التواصل</span></p>
+          <p><span>نظم دعم القرار</span></p>
+          <p><span>الادارة الاستراتيجية</span></p>
+          <p><span>التجارة الالكترونية</span></p>
+          <p><span>ادارة الأعمال الدولية</span></p>
+          <p><span>ادارة المواردالبشرية</span></p>
+          <p><span>ادارة المنشئات المتخصصة</span></p>
+          <p><span>ادارة المنظمات غير الربحية</span></p>
+        </div>
+      </section>
+
+      <!-- Currently Job Section -->
+      <section id="currently-job" class="currently-job">
+        <h2 class="section-title">المهام والوظائف التي اشغلها حاليا</h2>
+        <div class="cards-container">
+            <div class="card color">
+            <p class="second-text">استشاري التطوير المؤسسي وريادة الأعمال</p>
+            </div>
+            <div class="card color">
+            <p class="second-text">مدير الموارد البشرية - شركة الشرق الاوسط للتجارة ماليزيا</p>
+            </div>
+            <div class="card color">
+            <p class="second-text">مدرب ومحاضر في المجال الأداري والقيادي - ادارة الموارد البشرية - ادارة المشاريع</p>
+            </div>
+        </div>
+      </section>
+
+      <!-- leadership Positions Section -->
+      <section id="leadership-positions">
+        <h2 class="section-title">الوظائف القيادية والأشرافية (سابقاً)</h2>
+        <div class="cards-container">
+          <div class="card-leadership">
+            <p class="c-txt">رئيس مجلس ادارة مؤسسة الأفق التنموية - اليمن</p>
+          </div>
+          <div class="card-leadership">
+            <p class="c-txt">مدير المشاريع والاستشارات بشركة العربية - ماليزيا</p>
+          </div>
+          <div class="card-leadership">
+            <p class="c-txt">عضو مجلس ادارة المركز الثقافي لدعوة الجاليات - اليمن</p>
+          </div>
+          <div class="card-leadership">
+            <p class="c-txt">رئيس وحدة التدريب والاستشارات بمركز ادارة الأبحاث بجامعة المدينة العالمية - ماليزيا</p>
+          </div>
+          <div class="card-leadership">
+            <p class="c-txt">عضو مجلس ادارة مركز ميديو للتدريب والتعليم المستمر - ماليزيا</p>
+          </div>
+        </div>
+      </section>
+      
+      
+      <!-- training Positions Section -->
+      <section id="training-positions" class="training-positions">
+        <h2 class="section-title">الوظائف التدريبية والتطوير المؤسسي (سابقاً)</h2>
+        <div class="positions-container">
+          <div class="anim-container">
+            <div class="anim-card">مستشار اعداد الادلة التنظيمية لدى دار المهارات</div>
+          </div>
+          <div class="anim-container">
+            <div class="anim-card">متخصص في اعداد الحقائب التدريبية</div>
+          </div>
+          <div class="anim-container">
+            <div class="anim-card">مدرب مدربين معتمد</div>
+          </div>
+        </div>
+      </section>
+      
+      <!-- training certificates Section -->
+      <section id="training-certificates" class="training-certificates">
+        <h2 class="section-title">الشهادات المهنية والتدريبية </h2>
+        <div class="certificates-container">
+          <div class="card">الرخصة الدولية لقيادة الاعمال - جامعة ميزوري الأمريكية</div>
+          <div class="card">دبلوم محاسبة - المعهد البريطاني الأكاديمي</div>
+          <div class="card">دبلوم مدربي الموارد البشرية - المركز الأوربي للتدريب وتنمية المواردالبشرية</div>
+          <div class="card">مدرب أول معتمد من البورد العربي للأستشارات والتدريب والتنمية البشرية</div>
+          <div class="card">مدرب محترف من البورد العربي للأستشارات والتدريب والتنمية البشرية</div>
+          <div class="card">مدرب مدربين معتمد من البورد البريطاني للتدريب والاستشارات</div>
+          <div class="card">مدرب مدربين معتمد من مركز رؤيا للتدريب والتطوير</div>
+          <div class="card">مدرب معتمد لدى الاكاديمية الدولية للتدريب والاستشارات</div>
+          <div class="card">تدريب مدربين من اكاديمية فلسبي</div>
+          <div class="card">تدريب مدربين في برنامج صناعة نجوم التدريب ضمن برنامج ددتك الدولية لجودة التدريب</div>
+          <div class="card">ادارة المشاريع الاحترافية</div>
+        </div>
+      </section>
+      
+      <!-- Programs and Training Courses Section -->
+      <section id="programs-courses" class="programs-courses">
+        <h2 class="section-title">البرامج والدورات التدريبية التي أقيمها</h2>
+        <div class="container-programs-courses">
+          <div class="card-programs-courses">التخطيط الاستراتيجي</div>
+          <div class="card-programs-courses">ادارة التغيير المؤسسي</div>
+          <div class="card-programs-courses">ادارة الموارد البشرية</div>
+          <div class="card-programs-courses">مجموعة دورات في المهارات القيادية للقيادات</div>
+          <div class="card-programs-courses">تدريب واعداد المدربين</div>
+          <div class="card-programs-courses">مجموعة دورات في المهارات التنفيذية للموظفين</div>
+          <div class="card-programs-courses">ادارة المشاريع الاحترافية</div>
+          <div class="card-programs-courses">ريادة الاعمال</div>
+        </div>
+      </section>
+      
+      <!-- training centers Section -->
+      <section id="training-companies" class="centers-training-companies">
+        <h2 class="section-title">المراكز التدريبية والشركات التي أدرب معها</h2>
+        <div class="centers-container">
+          <div class="centers-card">
+            <div class="centers-card-info"><p>مركز رؤيا للتدريب والتطوير ماليزيا</p></div>
+          </div>
+          <div class="centers-card">
+            <div class="centers-card-info"><p>اكاديمية فلسبي ماليزيا</p></div>
+          </div>
+          <div class="centers-card">
+            <div class="centers-card-info"><p>مركز ميديو للتدريب والتعليم المستمر ماليزيا</p></div>
+          </div>
+          <div class="centers-card">
+            <div class="centers-card-info"><p>توب كوالتي للتدريب السودان</p></div>
+          </div>
+          <div class="centers-card">
+            <div class="centers-card-info"><p>الاكاديمية الدولية لتنمية الموارد البشرية</p></div>
+          </div>
+          <div class="centers-card">
+            <div class="centers-card-info"><p>البوردالعربي للتدريب والاستشارات الكويت</p></div>
+          </div>
+          <div class="centers-card">
+            <div class="centers-card-info"><p>البورد البريطاني للتدريب والاستشارات فرع اليمن</p></div>
+          </div>
+          <div class="centers-card">
+            <div class="centers-card-info"><p>الاكاديمية الدولية للتدريب والاستشارات مصر</p></div>
+          </div>
+          <div class="centers-card">
+            <div class="centers-card-info"><p>المنظمة العربية للأعلام التنموي اليمن</p></div>
+          </div>
+          <div class="centers-card">
+            <div class="centers-card-info"><p>مركز النجم الثاقب للتدريب السودان</p></div>
+          </div>
+          <div class="centers-card">
+            <div class="centers-card-info"><p>مركز الجودة للتدريب والخدمات ماليزيا</p></div>
+          </div>
+          <div class="centers-card">
+            <div class="centers-card-info"><p> معهد الخليج الدولي للإدارة والتكنولوجيا - سلطنة عمان</p></div>
+          </div>
+          <div class="centers-card">
+            <div class="centers-card-info"><p>الاكاديمية الدولية</p></div>
+          </div>
+          <div class="centers-card">
+            <div class="centers-card-info"><p>معهد الخليج الدولي للإدارة والتكنولوجيا</p></div>
+          </div>
+          <div class="centers-card">
+            <div class="centers-card-info"><p>جامعة المجمعة</p></div>
+          </div>
+          <div class="centers-card">
+            <div class="centers-card-info"><p>مركز التمكين المتقدم للتدريب</p></div>
+          </div>
+        </div>
+      </section>
+      
+      <!-- experiences Section -->
+      <section id="experience" class="experience-section">
+        <h2 class="section-title">الخبرات</h2>
+        <div class="experience-container">
+          <div class="experience-card"><p>خبرة وممارسة ادارية في المنظمات والمؤسسات لأكثر من 15 سنة</p></div>
+          <div class="experience-card"><p>شهادة خبرة من جامعة الاندلس للعلوم والتقنية - اليمن (محاضرة في قسم ادارة الاعمال)</p></div>
+          <div class="experience-card"><p>خبرة وممارسة في ادارة مراكز التدريب والاستشارات لمدة 5 سنوات</p></div>
+          <div class="experience-card"><p>شهادة خبرة من دار المهارات للأستشارات والتطوير الاداري - اليمن  (مستشار الأدلة التنظيمية والهياكل)</p></div>
+          <div class="experience-card"><p>خبرة وممارسة في التدريب لأكثر من 15 سنوات</p></div>
+          <div class="experience-card"><p>خبرة وممارسة في التدريس والمحاضرات في الجامعات لأكثر من 10 سنوات</p></div>
+        </div>
+      </section>
+      
+      <!-- skills Section -->
+      <section id="skills" class="skills-section">
+        <h2 class="section-title">المهارات</h2>
+        <div class="skills-container">
+          <div class="skills-card">
+            <p><span>مهارات التدريس والتعليم</span></p>
+            <p><span>مهارة استخدام برامج الحاسوب</span></p>
+          </div>
+          <div class="skills-card">
+            <p><span>مهارة التحدث أمام الاخرين</span></p>
+            <p><span>مهارة حل المشكلات والتعامل معها</span></p>
+          </div>
+          <div class="skills-card">
+            <p><span>مهارة ادارة الاجتماعات</span></p>
+            <p><span>مهارة التدريب والألقاء</span></p>
+          </div>
+          <div class="skills-card">
+            <p><span>مهارات الاشراف وادارة المشاريع</span></p>
+            <p><span>مهارة ادارة الوقت والتعامل مع ضغوط العمل</span></p>
+          </div>
+          <div class="skills-card">
+            <p><span>مهارات الابداع والابتكار</span></p>
+            <p><span>مهارة ادارة فرق العمل</span></p>
+          </div>
+        </div>
+      </section>
+      
+      <!-- articles Section -->
+      <section id="articles-research" class="articles-section">
+        <h2 class="section-title">المقالات و الأبحاث التي تم اعدادها</h2>
+        <div class="articles-container">
+          <div class="articles-card">
+            <p>علاقة المعرفة بادارة نظم المعلومات</p>
+            <p>الاكاديمية العربية للعلوم المالية والمصرفية - 2011</p>
+          </div>
+          <div class="articles-card">
+            <p>عوامل اختيار موقع المنظمة</p>
+            <p>الأكاديمية العربية للعلوم المالية والمصرفية - 2011</p>
+          </div>
+          <div class="articles-card">
+            <p>الادارة الاستراتيجية للموارد البشرية</p>
+            <p>الاكاديمية العربية للعلوم المالية والمصرفية - 2012</p>
+          </div>
+          <div class="articles-card">
+            <p>الرقابة التسويقية على الخدمات</p>
+            <p>الأكاديمية العربية للعلوم المالية والمصرفية - 2012</p>
+          </div>
+          <div class="articles-card">
+            <p>استراتيجيات التدريب وأثرها على أداء العاملين</p>
+            <p>الأكاديمية العربية للعلوم المالية والمصرفية - 2012</p>
+          </div>
+          <div class="articles-card">
+            <p>مخاطر الاستثمار في الموارد البشرية</p>
+            <p>الاكاديمية الاوربية للدراسات العليا - 2015</p>
+          </div>
+          <div class="articles-card">
+            <p>investigating the impact of human capital factors on the performance of staff in the central organization
+              for control and auditing in the republic of yemen</p>
+            <p>جامعة المدينة العالمية - ماليزيا - 2018</p>
+          </div>
+          <div class="articles-card">
+            <p>The mediating role of information exchange in the relationship between human capital and employees performance</p>
+            <p>جامعة المدينة العالمية - ماليزيا - 2018</p>
+          </div>
+        </div>
+      </section>
+      
+      <!-- Footer -->
+      <footer id="footer" class="footer">
+        <div class="social-icons">
+          <a href="mailto:a.ayay1977@hotmail.com" class="social-icon email" target="_blank">
+            <i class="fas fa-envelope"></i>
+          </a>
+          <a href="https://iwtsp.com/60182807240" class="social-icon whatsapp" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+          </a>
+          <a href="https://www.instagram.com/dr_alrawdhi" class="social-icon instagram" target="_blank">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://twitter.com/dr_alrawdhi" class="social-icon twitter" target="_blank">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="https://www.udemy.com/user/abdulkarem-3/" class="social-icon coursera" target="_blank">
+            <i class="fab fa-udemy"></i>
+          </a>
+          <a href="https://www.youtube.com/channel/UCC1Nmi4br3G2hYDAhtvlOJA" class="social-icon youtube" target="_blank">
+            <i class="fab fa-youtube"></i>
+          </a>
+          <a href="https://i-tcis.com/" class="social-icon website" target="_blank">
+            <i class="fas fa-globe"></i>
+          </a>
+          <a href="https://www.facebook.com/DR.Abdulkarem.Alrawdhi/?ref=settings" class="social-icon facebook" target="_blank">
+            <i class="fab fa-facebook"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/dr-abdulkarem" class="social-icon linkedin" target="_blank">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </footer>
+      
+      
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+      
+    
+  
+    </main>
+   </div>
+   <script src="main.js"></script>
+</body>
+</html>
